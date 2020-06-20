@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1A2F9E0-1DFD-4B53-D1D9-C2D8A2422D15" name="receta">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:27:29 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_receta" id="86C43E12-3991-7D4E-A4D6-15AA3FD278E7">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:27:51 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3151F5AE-CD19-46E7-5230-6A9CFA5F8E72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="componentes" id="AB6B313E-CD5E-0F9C-44B4-4F01AD45F2D1">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:28:25 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>539F9745-B346-DF0E-545E-60C0CCAEB926</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="9FE3917D-6DCE-2CC6-BB46-8A9489DC652C">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:28:45 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3151F5AE-CD19-46E7-5230-6A9CFA5F8E72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E25F928-DAEF-661B-1752-FBAB043968C5" name="receta PK">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:28:12 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86C43E12-3991-7D4E-A4D6-15AA3FD278E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
