@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="069B5F24-958E-2C66-8BD8-54A3473995D2" name="recepcion_venta">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:46:00 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dni" id="625B90FE-7720-6003-79C1-F9E3B9BEBBB1">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 20:05:00 UTC</createdTime>
+<generatorID>CD3FACE6-7AFD-8D25-5101-B54C14AE4FB3</generatorID>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<referedAttribute>1F1B5F46-8768-4A6F-79AF-7EE947CDA51C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3151F5AE-CD19-46E7-5230-6A9CFA5F8E72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_receta" id="8692ADC7-83B1-7406-AD5D-366B634C0606">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 20:05:05 UTC</createdTime>
+<generatorID>278A3B2A-FDF8-17C3-1A90-84D5614DA3C2</generatorID>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<referedAttribute>86C43E12-3991-7D4E-A4D6-15AA3FD278E7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3151F5AE-CD19-46E7-5230-6A9CFA5F8E72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codempleado" id="A52E7BA0-E89E-1042-083D-323DC9E3396F">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 20:12:43 UTC</createdTime>
+<generatorID>F45D820E-5B80-69BA-E7B4-5A348D512B78</generatorID>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<referedAttribute>EC5D3F06-BF9F-E367-E37E-606575C75C52</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3151F5AE-CD19-46E7-5230-6A9CFA5F8E72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dias" id="0DA5BEC8-8FC7-0113-8C84-B87504BBEBEB">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:46:00 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3151F5AE-CD19-46E7-5230-6A9CFA5F8E72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecharecepcion" id="FB985EFE-2E0C-6D2A-8144-23B84FE8BFDA">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:46:00 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8F762FCF-84ED-5CC2-70F5-6CD26B7DC2E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adelanto" id="CE542F67-8D58-DC7C-58FA-2E4E8D41EBBD">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:47:06 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3151F5AE-CD19-46E7-5230-6A9CFA5F8E72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6DA56BD4-FEB6-DD07-4291-545D6152318C" name="recepcion_venta PK">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 20:05:00 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>625B90FE-7720-6003-79C1-F9E3B9BEBBB1</attributeRef>
+<attributeRef>8692ADC7-83B1-7406-AD5D-366B634C0606</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

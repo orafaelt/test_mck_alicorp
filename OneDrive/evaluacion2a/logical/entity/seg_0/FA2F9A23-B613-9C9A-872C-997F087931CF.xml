@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA2F9A23-B613-9C9A-872C-997F087931CF" name="cliente">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:31:53 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dni" id="1F1B5F46-8768-4A6F-79AF-7EE947CDA51C">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:32:00 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3151F5AE-CD19-46E7-5230-6A9CFA5F8E72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E2F06119-CF08-E425-891C-BEAA37801034">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:32:10 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>30BFEFBE-017C-8C17-2CB3-A883DE45E751</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="D0C078D0-74A1-6CEB-46CB-6F44A09725E3">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:32:19 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>30BFEFBE-017C-8C17-2CB3-A883DE45E751</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="41CCD99C-6421-ABEF-6FFA-AE0BFC2D4460">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:32:26 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B7C0FB34-64AA-F942-BAA6-93DC65BF1716</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5397391-36E4-26B2-6EEA-07069914DAF5" name="clientes PK">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:32:05 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F1B5F46-8768-4A6F-79AF-7EE947CDA51C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFF3DB3B-B99E-AAAF-9957-715FA274E396" name="retiro">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:35:27 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_receta" id="78DD4773-E6F8-0411-8A4E-50B42BB92789">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 20:09:59 UTC</createdTime>
+<generatorID>270825B4-8F09-C567-2DEC-93E3C1C3AAB6</generatorID>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<referedAttribute>86C43E12-3991-7D4E-A4D6-15AA3FD278E7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3151F5AE-CD19-46E7-5230-6A9CFA5F8E72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dni" id="1983B3D1-39C5-6F76-1668-D057EAF4D74C">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 20:08:39 UTC</createdTime>
+<generatorID>FB06C044-8A65-DA1A-9285-8A4B012C265C</generatorID>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<referedAttribute>1F1B5F46-8768-4A6F-79AF-7EE947CDA51C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3151F5AE-CD19-46E7-5230-6A9CFA5F8E72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codempleado" id="47E626B1-8E9D-8F0C-F43F-7FF96CD126E4">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 20:13:24 UTC</createdTime>
+<generatorID>C7C84E23-6F00-69E3-E18D-FB1C4DB5FD51</generatorID>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<referedAttribute>EC5D3F06-BF9F-E367-E37E-606575C75C52</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>3151F5AE-CD19-46E7-5230-6A9CFA5F8E72</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecharetiro" id="624D2C15-5D91-9FFA-48FE-5FA3D16CDE36">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:35:39 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8F762FCF-84ED-5CC2-70F5-6CD26B7DC2E1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadosaldo" id="9E98C6ED-6E30-80DE-7854-CF59A8B2DB4D">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 19:35:52 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>539F9745-B346-DF0E-545E-60C0CCAEB926</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8CD610B3-7B2D-1996-7AEA-547C3C2E83E4" name="retiro PK">
+<createdBy>ORafaelT</createdBy>
+<createdTime>2020-06-20 20:08:39 UTC</createdTime>
+<ownerDesignName>evaluacion2a</ownerDesignName>
+<engineerTo>
+<item key="4DAAC3B9-C20D-AF97-6AA3-05A24C04002B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1983B3D1-39C5-6F76-1668-D057EAF4D74C</attributeRef>
+<attributeRef>78DD4773-E6F8-0411-8A4E-50B42BB92789</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
